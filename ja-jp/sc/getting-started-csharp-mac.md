@@ -94,7 +94,7 @@ The specified framework 'Microsoft.NETCore.App', version '1.0.4' was not found.
 
 これはインストールした .NET Core Runtime のバージョンとneonコンパイラがデフォルトで使用しようとしている .NET Core Runtime のバージョンが違う為に起こるエラーで、次のように修正します：
 
-neon.dllとどうディレクトリにある`neon.runtimeconfig.json`を開き、次のように編集します。
+neon.dllと同じディレクトリにある`neon.runtimeconfig.json`を開き、次のように編集します。
 
 ```
 {
